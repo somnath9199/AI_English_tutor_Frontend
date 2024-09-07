@@ -6,7 +6,6 @@ import participantone from '../assets/Ai.png';
 
 const Dashboard = () => {
   const [userPrompt, setUserPrompt] = useState('');
-  const [aiResponse, setAiResponse] = useState('');
   const [messages, setMessages] = useState([]);
   const [Camera, setCamera] = useState(false);
   const [mikeon, setMikeon] = useState(false);
@@ -70,7 +69,6 @@ const Dashboard = () => {
 
       // Add AI's response to chat
       setMessages((prevMessages) => [...prevMessages, newMessage]);
-      setAiResponse(response.data.aiResponse);
       speak(response.data.aiResponse); // Text-to-speech
       setUserPrompt(''); // Clear input after sending
     } catch (error) {
