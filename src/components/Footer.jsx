@@ -18,23 +18,14 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-4">Useful Links</h3>
             <ul>
-              <li><a href="#" className="text-gray-400 hover:text-white">Home</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Services</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white">Home</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white">About</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white">Services</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white">Contact</a></li>
             </ul>
           </div>
 
-          {/* Social Media */}
-          {/* <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h3 className="text-xl font-bold mb-4">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white"><FaFacebook size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white"><FaTwitter size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white"><FaLinkedinIn size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-white"><FaInstagram size={20} /></a>
-            </div>
-          </div> */}
+         
 
           {/* Newsletter */}
           <div className="w-full md:w-1/4">
@@ -59,7 +50,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="text-center border-t border-gray-700 pt-6">
-          <p className="text-gray-400">&copy; 2024 Your Company Name. All Rights Reserved.</p>
+          <p className="text-gray-400">&copy; 2024 Your Somnath Dey All Rights Reserved.</p>
         </div>
       </div>
     </footer>
