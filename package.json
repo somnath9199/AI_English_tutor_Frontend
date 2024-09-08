@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-   "proxy":"https://server-3wtv.onrender.com",
+   "proxy":"https://server-g8p1.onrender.com",
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
     "@react-three/drei": "^9.112.0",
